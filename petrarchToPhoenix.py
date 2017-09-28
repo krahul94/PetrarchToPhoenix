@@ -4,7 +4,7 @@ import re
 import logging
 import json
 
-from kafka import SimpleProducer, KafkaClient
+from kafka import SimpleProducer, KafkaClient, KafkaConsumer
 from mediameter.cliff import Cliff
 
 def process_cameo(event):
